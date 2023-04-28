@@ -16,7 +16,7 @@ One of the best ways to communicate with the rest of the project contributors is
 
 ### Discussions and announcements
 
-Longer discussions can be taken up on the GitHub Discussions list or via the [mailing list](url to general mailing list). 
+Longer discussions can be taken up on the GitHub Discussions list or via the [OXA mailing list](https://lists.oasis-open-projects.org/g/oca-oxa). 
 
 Discussions are a relatively new feature in GitHub that function like a chat service. You can find the Discussions link next to the link for Pull Requests. 
 
