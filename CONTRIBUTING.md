@@ -4,11 +4,23 @@
 
 The Open XDR Architecture (OXA) effort is a sub-project of the [Open Cybersecurity Alliance (OCA)](https://opencybersecurityalliance.org/). OCA is an [OASIS Open Project](https://www.oasis-open.org/open-projects/) and welcomes participation by anyone, whether affiliated with OASIS or not. Substantive contributions and feedback are invited from all parties, following the common conventions for participation in GitHub public repository projects.
 
-Participation is expected to be consistent with our [Code of Conduct](./CODE-OF-CONDUCT.md), the licenses applicable for each repository, and the acceptance of our [Contributor License Agreement](https://www.oasis-open.org/open-projects/cla/oasis-open-projects-individual-contributor-license-agreement-i-cla/), generally at the time of first contribution. 
+Participation is expected to be consistent with politeness and everyone's respect, the licenses applicable for each repository, and the acceptance of our [Contributor License Agreement](https://www.oasis-open.org/open-projects/cla/oasis-open-projects-individual-contributor-license-agreement-i-cla/), generally at the time of first contribution. 
 
 ## How to Contribute
 
 When contributing to the repositories in this project, please first discuss significant changes you wish to make via issue, email, GitHub discussion, or via the project's email list.
+
+## Types of contribution
+- Have something to say: join us at slack (find how to join in [README](README.md)), or create a ticket at [GitHub Issues](https://github.com/opencybersecurityalliance/oxa/issues).
+- Report bugs: report bugs at [GitHub Issues](https://github.com/opencybersecurityalliance/oxa/issues).
+- Fix bugs: look through the [GitHub Issues](https://github.com/opencybersecurityalliance/oxa/issues) for bugs to fix.
+- Implement features: look through the [GitHub Issues](https://github.com/opencybersecurityalliance/oxa/issues) for features to implement.
+- Write documentation: we use the [Google Style docstrings](https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings) in our source code.
+
+**And the most important:**
+- Share your product ingestion mapper: submit a PR to the OXA repo (link coming soon).
+- Share your product automation mapper: submit a PR to the OXA automation repository (link coming soon)
+
 
 ### Issues
 
@@ -32,6 +44,3 @@ The OXA sub-project uses the OCA community uses Slack for ad hoc discussion. If 
 
 When you first submit a pull request, CLA Assistant, a bot, will check to see whether you have previously signed the [Individual CLA](https://cla-assistant.io/opencybersecurityalliance/oasis-open-project). If you have already done so, this check will pass. If not, the bot will comment on the PR with a link and instruction for you to click and sign the CLA electronically via GitHub. If you use different GitHub accounts for work and personal use, please make sure you are signed in to the correct account.
 
-## Feedback
-
-Questions or comments about this project's work may be submitted as GitHub issues or comments or may be directed to the project's general email list at [prj-email-url]@lists.oasis-open-projects.org. General questions about OASIS Open Projects may be directed to OASIS staff at [op-admin@lists.oasis-open-projects.org](mailto:op-admin@lists.oasis-open-projects.org).
