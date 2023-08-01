@@ -61,17 +61,16 @@ OXA relies on:
 # Licence
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
-
 http://www.apache.org/licenses/LICENSE-2.0
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 
 # Contributing
-We are thrilled you are considering contributing! We welcome all contributors. Guidelines for contributing will come soon.
+We are thrilled you are considering contributing! We welcome all contributors. Guidelines for contributing [can be found here](./CONTRIBUTING.md).
 
 ## Join us on slack
 
-[Click here](https://docs.google.com/forms/d/1vEAqg9SKBF3UMtmbJJ9qqLarrXN5zeVG3_obedA3DKs/viewform?edit_requested=true) and fill out the form to receive an invite to the Open Cybersecurity Alliance slack instance, then join the #oxa channel, to meet and discuss usage with the team.
+[Click here](https://join.slack.com/t/open-cybersecurity/shared_invite/zt-1jsgt1053-oYsfBPXXChhbRO4JO5Xo1A) and fill out the form to receive an invite to the Open Cybersecurity Alliance slack instance, then join the #oxa channel, to meet and discuss usage with the team.
 
 # Documentation
 Documentation related to OXA is maintained in the OXA GitHub respository of OpenCybersecurityAlliance. A dedicated website will be available soon to describe the approach visually.
