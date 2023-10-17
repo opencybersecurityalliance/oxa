@@ -1,3 +1,5 @@
+![Orchestration for OXA](https://github.com/opencybersecurityalliance/oxa/assets/145455635/27fcfc90-ff9d-4549-977a-6035ae97dfb2)
+
 Orchestration is the ability to coordinate IT systems, applications and services in a defined sequence.
 
 The more complex an IT environment is, the more complex the management of all its moving parts is, and the more one needs to combine processes and programmatically defined tasks across different groups of systems and machines. 
