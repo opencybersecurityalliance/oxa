@@ -35,7 +35,8 @@ This project aims to define the architecture of an ideal eXtended Detection and 
 - CTI-powered vendor's product automatically
 
 # In a nutshell
-![image](https://github.com/opencybersecurityalliance/oxa/assets/10251174/a1635554-48b4-4747-852a-5d2d982a3196)
+![OXA](https://github.com/opencybersecurityalliance/oxa/assets/145455635/0a193f6b-532e-4086-9b71-067a8cad441b)
+
 OXA is a common set of libraries and interfaces that allows cybersecurity industry to interact
 
 
