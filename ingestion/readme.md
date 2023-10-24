@@ -1,5 +1,6 @@
-
-![Ingestion for OXA](https://github.com/opencybersecurityalliance/oxa/assets/145455635/639260e4-c101-47b2-bf95-302d4ad73f21)
+<p align="center">
+<img src="https://github.com/opencybersecurityalliance/oxa/assets/145455635/639260e4-c101-47b2-bf95-302d4ad73f21" width="50%">
+</p>
 
 Data ingestion refers to the process of collecting data from different sources speaking different languages, translating it into a common language and storing it on a destination node, where it is ready to be analyzed and used. 
 
