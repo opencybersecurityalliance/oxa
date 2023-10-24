@@ -1,4 +1,6 @@
-![Automation for OXA](https://github.com/opencybersecurityalliance/oxa/assets/145455635/4650ee62-a470-42d7-a337-5a781a988274)
+<p align="center">
+<img src="https://github.com/opencybersecurityalliance/oxa/assets/145455635/4650ee62-a470-42d7-a337-5a781a988274" width="50%">
+</p>
 
 Automation consists in the use of softwares to create replicable commands and workflows, with the aim of reducing human intervention or substituting it with automated computing systems.
 
