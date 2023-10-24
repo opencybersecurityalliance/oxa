@@ -1,6 +1,9 @@
 Threat Intelligence covers the process of collecting, processing, identifying and analyzing data about cyber threats in order to better understand them. 
 
-![CTI for OXA](https://github.com/opencybersecurityalliance/oxa/assets/145455635/f82aee53-22fa-4d7f-83bd-b31f54ca9ae4)
+
+<p align="center">
+<img src="https://github.com/opencybersecurityalliance/oxa/assets/145455635/f82aee53-22fa-4d7f-83bd-b31f54ca9ae4" width="50%">
+</p>
 
 Threat Intelligence enables organizations to make faster, smarter and better-informed security decisions. It encourages proactive, rather than reactive, behavior in the ongoing fight against cyber-attacks.
 
