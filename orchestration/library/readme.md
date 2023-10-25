@@ -19,7 +19,7 @@ The example below details how a mitigation playbook can ask a network operator t
 
 
 # Example
-
+``` 
 {
   "type": "playbook",
   "playbook_types":["mitigation"],
@@ -70,6 +70,7 @@ The example below details how a mitigation playbook can ask a network operator t
     }
   }
 }
+```
 
 
 # Resources
