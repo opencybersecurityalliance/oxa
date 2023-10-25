@@ -1,5 +1,8 @@
 
 # Overview
+
+This library provides CACAO playbooks that can be used to provide orchestration capabilities.
+
 CACAO stands for Collaborative Automated Course of Action Operations.
 It's a schema and taxonomy for cyber security playbooks.
 
@@ -77,8 +80,12 @@ The example below details how a mitigation playbook can ask a network operator t
 
 Some resources already provide CACAO usecases or explanations:
 
-
 - https://docs.oasis-open.org/cacao/security-playbooks/v2.0/security-playbooks-v2.0.html
 - https://www.signalscorps.com/blog/oasis-cacao-101-introduction/ 
 - https://github.com/oasis-tcs/cacao/tree/master/Examples/CACAO-2.0
-- 
+
+Some resources provides playbooks that are interesting (but not using CACAO) 
+- https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks
+- https://github.com/SEKOIA-IO/Community/tree/main/playbooks/templates
+
+
