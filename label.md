@@ -280,16 +280,16 @@ Once re-compliance has been achieved, the grantee can claim the compliance with 
 
 Logotype for the OXA Platinum Label  
 
-![](resources/OXA_label_platinum.png)
+![](resources/OXA_platinum_label.png)
 
 Logo for the OXA Gold Label 
-![](resources/OXA_label_gold.png)
+![](resources/OXA_gold_label.png)
  
 
 Logo for the OXA Silver Label  
-![](resources/OXA_label_silver.png)
+![](resources/OXA_silver_label.png)
  
 
 Logo for the OXA Bronze Label 
-![](resources/OXA_label_bronze.png)
+![](resources/OXA_bronze_label.png)
  
