@@ -255,10 +255,10 @@ The applicant must commit to being in line with what he has declared. If, subseq
 ### Milestones for label acquisition 
 
  
+All validations are made on the fly
 
-The first pack of labelled solutions will be validated on Sept 1st, 2025 to allow companies to get better visibility on the OXA project, align it with their interest and drive the few required technical developments in their roadmaps to get the first level of label. 
+> The first pack of labelled solutions will be validated on Sept 1st, 2025 to allow companies to get better visibility on the OXA project, align it with their interest and drive the few required technical developments in their roadmaps to get the first level of label. 
 
-After this date, all validations will be done on the fly. 
 
  
 
