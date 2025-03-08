@@ -52,12 +52,14 @@ The output of this project are open source repositories to accelerate market ado
 
 # Standards use
 
-OXA relies on:
-* STIX/TAXII for threat intelligence dissemination along security components
-* OpenC2 for ordering generic actions that shoulg be executed on security components
-* CACAO for defining the community orchestrated best practices on response strategies
-* ECS/OCSF for ingesting logs from security components
-* A open REST/API to create an interface beetween security products and the XDR back-end side
+OXA relies mostly on standards and other community approaches to leverage a better interoperability:
+* STIX as a preferred format for modeling threat intelligence
+* TAXII as a preferred format for disseminating threat intelligence along security components
+* OCSF as a prefered format for ingesting logs from security components
+* CACAO as a preferred format for defining the community orchestrated best practices on response strategies
+* OpenC2 as a preferred format for ordering generic actions that shoulg be executed on security components
+* Meshroom as a preferred tool to create integrations between product and make them public
+* An open REST/API to create an interface beetween security products and the XDR back-end side
  
 # Licence
 
