@@ -8,4 +8,4 @@
 
 
 ## Other contributions
-- Sekoia proposes a [parser OCSF -> ECS](https://github.com/SEKOIA-IO/intake-formats/blob/main/OCSF/ocsf/ingest/parser.yml) to ingest incoming OCSF events and transform them into ECS content
+- [Sekoia](https://sekoia.io) proposes a [parser OCSF -> ECS](https://github.com/SEKOIA-IO/intake-formats/blob/main/OCSF/ocsf/ingest/parser.yml) to ingest incoming OCSF events and transform them into ECS content
