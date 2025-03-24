@@ -16,10 +16,13 @@ OXA framework considers the ingestion process is fostered when four different is
 - the incoming events (at the analytics side) are normalized as structured content, ideally a standard
 - the normalized events are stored on a system that can allow scalability and accessibility, ideally a standard
 
+![](../resources/ingestion.svg)
+
 
 # Ingestion stages
 
-**On the sensor stage**, OXA does not intend to replace existing standards. Several of them already exist and perform well :
+## On the sensor stage, 
+On this stage OXA does not intend to replace existing standards. Several of them already exist and perform well :
 - [OpenTelemetry](https://opentelemetry.io/) (which has integrated [Elastic Common Schema - ECS](https://github.com/elastic/ecs/tree/main))
 - [Open Cybersecurity Schema Framework - OCSF](https://schema.ocsf.io/)
 - [Common Event Format - CEF](https://www.microfocus.com/documentation/arcsight/arcsight-smartconnectors-8.3/cef-implementation-standard/Content/CEF/Chapter%201%20What%20is%20CEF.htm)
@@ -28,19 +31,22 @@ OXA framework considers the ingestion process is fostered when four different is
 OCSF, OpenTelemetry/ECS, CEF have a large community adoption.
 **OCSF, OpenTelemetry/ECS are the preferred OXA choices for sensor solutions, considering next stages and current community adoption**
 
-**On the transport stage**, Syslog (and its secure evolutions) has been an historical solution  to distribute log on other systems. 
+## On the transport stage, 
+Syslog (and its secure evolutions) has been an historical solution  to distribute log on other systems. 
 Modern log transport relies more and more on HTTP. It can then be used in two ways:
 - The sensor-producer will push the events to the analytics-consumer
 - The analytics-consumer will pull the events from the sensor-producer-management console 
 **OXA has no preference on the transport being used**
 
-**On the normalization stage**, when the incoming events are directly structured in a rich format it will allow valuable cybersecurity use cases:
+## On the normalization stage, 
+When the incoming events are directly structured in a rich format it allows valuable cybersecurity use cases:
 - turnkey enrichment, 
 - real-time detection analytics, 
 - complex queries for future hunting activities
-For that, **OCSF and OpenTelemetry/ECS have a real advantage because they both use a rich schema. OXA recognizes these two solutions as the preferred ones for an analytic solution**.  
+**OCSF and OpenTelemetry/ECS have a real advantage because they both use a rich schema. OXA recognizes these two solutions as the preferred ones for an analytic solution**.  
 
-**On the storage stage**, two main approaches can pretend to compete:
+## On the storage stage**, 
+Two main approaches can pretend to compete at this stage:
 - the first one relies on Elasticsearch, as a  scalable data store and distributed search engine. Elasticsearch is relevant for incoming events structured as OpenTelemtry/ECS
 - the second one relies on S3 from AWS, now widely adopted as as de-factor distributed object storage. S3 is very relevant for incoming events structured as OCSF or any security solution activated into a AWS ecosystem. 
 **OXA has no preference on the storage being used for analytics solution**
