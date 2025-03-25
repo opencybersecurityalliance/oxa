@@ -4,7 +4,7 @@
 - [Understanding OCSF](https://github.com/ocsf/ocsf-docs/blob/main/Understanding%20OCSF.pdf)
 - [OCSF website](https://schema.ocsf.io/)
 - [OCSF Github repository](https://github.com/ocsf)
-- 
+  
 
 
 ## Other contributions
