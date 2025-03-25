@@ -16,7 +16,7 @@ Application date: date of the intial application
 
 Upgrade date : date of the latest commit 
 
-OXA capability Open API: [Yes | No] 
+OXA capability Open API: [Yes | No] , API Documentation URL
 
 OXA capability OCSF: [Yes | No] , [ Producer | Consumer] 
 
