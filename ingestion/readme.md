@@ -18,6 +18,9 @@ OXA framework considers the ingestion process is fostered when four different is
 
 ![](../resources/ingestion.svg)
 
+OXA addresses these issues by combining existing approaches and providing new ones!
+
+
 
 # Ingestion stages
 
@@ -28,7 +31,9 @@ On this stage OXA does not intend to replace existing standards. Several of them
 - [Common Event Format - CEF](https://www.microfocus.com/documentation/arcsight/arcsight-smartconnectors-8.3/cef-implementation-standard/Content/CEF/Chapter%201%20What%20is%20CEF.htm)
 - [OASIS Heimdall Data Format - OHDF](https://github.com/oasis-tcs/ohdf)  
 - [Intrusion Detection Message Exchange Format - IDMEF](https://github.com/IDMEFv2)
+
 OCSF, OpenTelemetry/ECS, CEF have a large community adoption.
+
 **OCSF, OpenTelemetry/ECS are the preferred OXA choices for sensor solutions, considering next stages and current community adoption**
 
 ## On the transport stage, 
@@ -36,6 +41,7 @@ Syslog (and its secure evolutions) has been an historical solution  to distribut
 Modern log transport relies more and more on HTTP. It can then be used in two ways:
 - The sensor-producer will push the events to the analytics-consumer
 - The analytics-consumer will pull the events from the sensor-producer-management console 
+
 **OXA has no preference on the transport being used**
 
 ## On the normalization stage, 
@@ -43,18 +49,21 @@ When the incoming events are directly structured in a rich format it allows valu
 - turnkey enrichment, 
 - real-time detection analytics, 
 - complex queries for future hunting activities
+
 **OCSF and OpenTelemetry/ECS have a real advantage because they both use a rich schema. OXA recognizes these two solutions as the preferred ones for an analytic solution**.  
 
 ## On the storage stage**, 
 Two main approaches can pretend to compete at this stage:
 - the first one relies on Elasticsearch, as a  scalable data store and distributed search engine. Elasticsearch is relevant for incoming events structured as OpenTelemtry/ECS
 - the second one relies on S3 from AWS, now widely adopted as as de-factor distributed object storage. S3 is very relevant for incoming events structured as OCSF or any security solution activated into a AWS ecosystem. 
+
 **OXA has no preference on the storage being used for analytics solution**
 
 
 # Conclusion
 
 For a relevant ingestion capability, **two Frameworks are preferred: OCSF and OpenTelemetry/ECS**.
+
 OXA brings some resources to accelerate the use of OCSF and/or OpenTelemetrECS
  
 
