@@ -12,3 +12,5 @@
 
 ## Other contributions
 - [Sekoia](https://sekoia.io) SOC platform proposes a [pack in parsers](https://github.com/SEKOIA-IO/intake-formats) to transform multiple datasources events into ECS format
+> Note: if you are viewing this file and are doing something that could help the community, please update the page
+
