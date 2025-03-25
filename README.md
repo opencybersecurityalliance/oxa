@@ -1,6 +1,15 @@
 
 ![OXA logo](https://github.com/opencybersecurityalliance/oxa/blob/main/resources/OXA%20logo3.jpg)
 
+# TL;DR
+OXA solves several interoperabilitiy problems to enable a true Open XDR environment with:
+- [Better ingestion process](ingestion)
+- [Threat Intelligence actionability](cti)
+- [Automation everywhere](automation) 
+- [Orchestration sharing capabilities](orchestration)
+- [OpenAPI interface](api) 
+
+Any editor can contribute and get [labelled](label.md)!
 
 # Overview
 
