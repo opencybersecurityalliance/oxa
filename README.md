@@ -1,7 +1,5 @@
 
 ![OXA logo](https://github.com/opencybersecurityalliance/oxa/blob/main/resources/OXA%20logo3.jpg)
-OXA - Open XDR architecture
-
 
 
 # Overview
