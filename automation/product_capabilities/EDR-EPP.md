@@ -1,3 +1,17 @@
+# Product catagory
+EDPP stands for Endpoint Protection Platform whereas EDR stands for Endpoint Detection and Response. Both are largelly included into the same product category. They are widely deployed on organization to protect against different kind of malware
+
+Main capabilities will include:
+- Scan a device
+- Delete a file
+- Quarantine files or programs
+- Block or kill processes
+- Isolate an endpoints
+- Disconnec a user
+
+
+# Automation capabilities
+
 | Action              |  Details | Target-Type | Arguments |
 | :------------------ | :------- | :---------: | --------: |
 |	scan |	Initiate a scan for binaries classified as malicious. |||
