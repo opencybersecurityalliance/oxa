@@ -1,4 +1,4 @@
-# Product catagory
+# Product category
 EASM stands for External Attack Surface Management  and plays an important role to identify how the digital environment of an organization is exposed.
 
 Main capabilities will include:
