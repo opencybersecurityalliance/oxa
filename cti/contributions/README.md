@@ -13,8 +13,9 @@ A technology provider can consume profile-related feed on specific TAXII URLs:
 - [TAXII URL for network capable products](https://app.sekoia.io/api/v2/inthreat/taxii-server/collections/feed--106faf73-04cf-4164-9c57-b45b762f9568/objects)
 - [TAXII URL for system capable products](https://app.sekoia.io/api/v2/inthreat/taxii-server/collections/feed--2315e6d4-e4b6-4d4f-844b-b9d4946fbb89/objects)
 
-An API key will be required to authorize the TAXII consumer to get access to the feed
+> An API key will be required to authorize the TAXII consumer to get access to the feed
 
+## Other providers
 > Note: if you are viewing this file and are doing this, please update the page
 
 
