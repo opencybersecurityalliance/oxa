@@ -26,8 +26,8 @@ OXA addresses these issues by combining existing approaches and providing new on
 
 ## On the sensor stage, 
 On this stage OXA does not intend to replace existing standards. Several of them already exist and perform well :
-- [OpenTelemetry](https://opentelemetry.io/) (which has integrated [Elastic Common Schema - ECS](https://github.com/elastic/ecs/tree/main))
 - [Open Cybersecurity Schema Framework - OCSF](https://schema.ocsf.io/)
+- [OpenTelemetry](https://opentelemetry.io/) (which has integrated [Elastic Common Schema - ECS](https://github.com/elastic/ecs/tree/main))
 - [Common Event Format - CEF](https://www.microfocus.com/documentation/arcsight/arcsight-smartconnectors-8.3/cef-implementation-standard/Content/CEF/Chapter%201%20What%20is%20CEF.htm)
 - [OASIS Heimdall Data Format - OHDF](https://github.com/oasis-tcs/ohdf)  
 - [Intrusion Detection Message Exchange Format - IDMEF](https://github.com/IDMEFv2)
