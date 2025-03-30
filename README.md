@@ -1,3 +1,5 @@
+# Open XDR Architecture
+> Smart Interoperability for Detection and Response
 
 ![OXA logo](https://github.com/opencybersecurityalliance/oxa/blob/main/resources/OXA%20logo3.jpg)
 
