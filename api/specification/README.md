@@ -1,1 +1,9 @@
-TODO - update the page with JSON file
+# OpenAPI specification
+
+## Backend /analytics side
+
+TODO - renderer 
+
+## Frontend / sensor side
+
+TODO - create spec
