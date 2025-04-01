@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <script src="https://unpkg.com/swagger-ui-dist@5.11.0/swagger-ui-bundle.js" crossorigin></script>
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/swagger-ui-dist@5.11.0/swagger-ui.css"/>
+        <title>OXA backend API documentation</title>
+    </head>
+    <body>
+        <div id="swagger-ui"></div>
+        <script>
+            window.onload = function () {
+                const ui = SwaggerUIBundle({
+                    url: "https://raw.githubusercontent.com/opencybersecurityalliance/oxa/refs/heads/main/api/specification/schema-oxa-backend.json",
+                    dom_id: '#swagger-ui',
+                })
+            }
+        </script>
+    </body>
+</html>

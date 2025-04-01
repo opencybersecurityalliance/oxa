@@ -3943,8 +3943,8 @@
         }
       }
     },
-    "/register":{
-    "$ref": "#/paths/~1conf~1connectors"
+    "/register": {
+      "$ref": "#/paths/~1conf~1connectors"
     },
     "/conf/connectors/configured-formats": {
       "get": {
@@ -14226,117 +14226,6 @@
         ]
       }
     },
-    "/kill-chains": {
-      "get": {
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/AlertKillChainsSchema"
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Authentication failed"
-          },
-          "403": {
-            "description": "Insufficient permissions"
-          }
-        },
-        "summary": "List Cyber Kill Chain Stages",
-        "description": "The cyber kill chain (developed by Lockheed Martin) is an industry-accepted framework to\n describe and model the stages of an offensive cyber activity. An effective understanding of\nthe cyber kill chain greatly assists the information security professional in\n establishing the adversary’s tactics, techniques and procedures (TTPs).\n\nThe cyber kill chain is denoted by 7 steps:\n1. Reconnaissance: Intruder selects target, researches it, and attempts to identify\n vulnerabilities in the target network.\n2. Weaponization: Intruder creates remote access malware weapon, such as a virus or\n worm, tailored to one or more vulnerabilities.\n3. Delivery: Intruder transmits weapon to target (e.g., via e-mail attachments,\n websites or USB drives).\n4. Exploitation: Malware weapon's program code triggers, which takes action\n on target network to exploit vulnerability.\n5. Installation: Malware weapon installs access point (e.g., \"backdoor\") usable by intruder.\n6. Command and Control: Malware enables intruder to have \"hands on the\n keyboard\" persistent access to target network.\n7. Actions on Objective: Intruder takes action to achieve their goals,\n such as data exfiltration, data destruction, or encryption for ransom.\n\nThis endpoint can be use to retrieve the different stages of the Cyber Kill Chain.\n\nA stage is denoted by its unique identifier (`uuid`), its `name` and `description`.\nIn addition, every stage can be refered to by its `short_id`.\n\nFor example, the following denotes the **Reconnaissance** stage:\n```\n{\n    'uuid': '00000000-1111-2222-3333-444444444444',\n    'name': 'Reconnaissance',\n    'description': 'Intruder selects target, researches it, and attempts to identify vulnerabilities.',\n    'short_id': 'KCXKNfnJupq5'\n}\n```\n\nThe following permissions are required:\n - “View alerts” (`00000000-1111-2222-3333-444444444444`)",
-        "operationId": "get_alert_kill_chain_resources",
-        "parameters": [
-          {
-            "in": "query",
-            "name": "limit",
-            "required": false,
-            "type": "integer",
-            "default": 20,
-            "minimum": 1,
-            "maximum": 100,
-            "description": "limit a number of items (allowed range is 1-100), default is 20."
-          },
-          {
-            "in": "query",
-            "name": "offset",
-            "required": false,
-            "type": "integer",
-            "default": 0,
-            "minimum": 0,
-            "description": "a number of items to skip, default is 0."
-          },
-          {
-            "in": "query",
-            "name": "match[name]",
-            "required": false,
-            "type": "string",
-            "description": "Match kill chain by their names (separated by commas)."
-          },
-          {
-            "in": "query",
-            "name": "match[short_id]",
-            "required": false,
-            "type": "string",
-            "description": "Match kill chain by their short_ids (separated by commas)."
-          }
-        ],
-        "tags": [
-          "Detection",
-          "Alerts",
-          "Cyber Kill Chain"
-        ]
-      }
-    },
-    "/kill-chains/{uuid}": {
-      "parameters": [
-        {
-          "name": "uuid",
-          "in": "path",
-          "required": true,
-          "type": "string"
-        }
-      ],
-      "get": {
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/AlertKillChainSchema"
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Authentication failed"
-          },
-          "403": {
-            "description": "Insufficient permissions"
-          }
-        },
-        "summary": "Get a Cyber Kill Chain Stage",
-        "description": "This endpoint can be use to retrieve the definition of\na Cyber Kill Chain Step following either its unique identifier or its short id (`uuid`).\n\nThe following permissions are required:\n - “View alerts” (`00000000-1111-2222-3333-444444444444`)",
-        "operationId": "get_alert_kill_chain_resource",
-        "tags": [
-          "Detection",
-          "Alerts",
-          "Cyber Kill Chain"
-        ],
-        "parameters": [
-          {
-            "name": "uuid",
-            "in": "path",
-            "required": true,
-            "type": "string"
-          }
-        ]
-      }
-    },
     "/orchestration/actions": {
       "get": {
         "responses": {
@@ -23569,7 +23458,6 @@
             "minimum": 0,
             "description": "a number of items to skip, default is 0."
           },
-          
           {
             "in": "query",
             "name": "feed_id",
@@ -44000,7 +43888,6 @@
                         "type": "object"
                       }
                     },
-                    
                     "x_cti_impacted_sectors": {
                       "type": "array",
                       "readOnly": true,
@@ -44703,7 +44590,6 @@
               "type": "object"
             }
           },
-          
           "x_cti_impacted_sectors": {
             "type": "array",
             "readOnly": true,
@@ -44839,7 +44725,6 @@
                     "type": "object"
                   }
                 },
-               
                 "x_cti_impacted_sectors": {
                   "type": "array",
                   "readOnly": true,
@@ -45206,7 +45091,6 @@
                         "type": "object"
                       }
                     },
-                  
                     "x_cti_impacted_sectors": {
                       "type": "array",
                       "readOnly": true,
@@ -45732,7 +45616,6 @@
                     "type": "object"
                   }
                 },
-               
                 "x_cti_impacted_sectors": {
                   "type": "array",
                   "readOnly": true,
@@ -45868,7 +45751,6 @@
                           "type": "object"
                         }
                       },
-                   
                       "x_cti_impacted_sectors": {
                         "type": "array",
                         "readOnly": true,
@@ -46155,7 +46037,6 @@
                     "type": "object"
                   }
                 },
-              
                 "x_cti_impacted_sectors": {
                   "type": "array",
                   "readOnly": true,
@@ -46297,7 +46178,6 @@
                   "type": "object"
                 }
               },
-             
               "x_cti_impacted_sectors": {
                 "type": "array",
                 "readOnly": true,
@@ -46429,7 +46309,6 @@
                     "type": "object"
                   }
                 },
-               
                 "x_cti_impacted_sectors": {
                   "type": "array",
                   "readOnly": true,
